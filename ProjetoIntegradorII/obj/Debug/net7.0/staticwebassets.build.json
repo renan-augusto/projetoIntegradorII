@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "WV4awgk5y/YNZE2uJjEb1GdTX8+hV0i1tIHUa+qdAJg=",
-  "Source": "ProjetoIntegradorII",
-  "BasePath": "_content/ProjetoIntegradorII",
+  "Hash": "zP0B+lsZowzo8r7+UzWg8IAYzD/nYMqTp81EIWc6G8s=",
+  "Source": "ProjetoIntegradorII.Api",
+  "BasePath": "_content/ProjetoIntegradorII.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

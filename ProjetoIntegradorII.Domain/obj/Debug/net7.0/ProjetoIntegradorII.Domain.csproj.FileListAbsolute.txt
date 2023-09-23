@@ -1,0 +1,12 @@
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\bin\Debug\net7.0\ProjetoIntegradorII.Domain.deps.json
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\bin\Debug\net7.0\ProjetoIntegradorII.Domain.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\bin\Debug\net7.0\ProjetoIntegradorII.Domain.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\obj\Debug\net7.0\ProjetoIntegradorII.Domain.csproj.AssemblyReference.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\obj\Debug\net7.0\ProjetoIntegradorII.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\obj\Debug\net7.0\ProjetoIntegradorII.Domain.AssemblyInfoInputs.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\obj\Debug\net7.0\ProjetoIntegradorII.Domain.AssemblyInfo.cs
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\obj\Debug\net7.0\ProjetoIntegradorII.Domain.csproj.CoreCompileInputs.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\obj\Debug\net7.0\ProjetoIntegradorII.Domain.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\obj\Debug\net7.0\refint\ProjetoIntegradorII.Domain.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\obj\Debug\net7.0\ProjetoIntegradorII.Domain.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Domain\obj\Debug\net7.0\ref\ProjetoIntegradorII.Domain.dll

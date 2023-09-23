@@ -16,15 +16,20 @@ namespace ProjetoIntegradorII.Domain.Entities
         public int AdressId { get; set; }
         public Adress Adress { get; set; }
 
-        public Beneficiary(string name, int LegalNature, string Phone, int adressId) 
+        public Beneficiary(string name, int legalNature, string phone) 
         {
-            ValidateDomain(name, LegalNature, Phone);
+            ValidateDomain(name, legalNature, phone);
+        }
+
+        public Beneficiary(string name, int legalNature, string Phone, int adressId) 
+        {
+            ValidateDomain(name, legalNature, Phone);
             AdressId = adressId;
         }
 
         public void ValidateDomain(string name, int legalNature, string phone)
         {
-            DomainExceptionValidation.When(string.IsNullOrWhiteSpace(name), "Invalid name. Name is required");
+            DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid name. Name is required");
             DomainExceptionValidation.When(name.Length < 3, "Invalid name. Minimum 3 chars");
             DomainExceptionValidation.When(legalNature < 0, "Invalid legal nature. Should be greater than 0");
             DomainExceptionValidation.When(phone.Length < 9, "Invalid phone. Mininum of 9 chars");
