@@ -475,9 +475,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII\\ProjetoIntegradorII.csproj",
-      "projectName": "ProjetoIntegradorII",
-      "projectPath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII\\ProjetoIntegradorII.csproj",
+      "projectUniqueName": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII\\ProjetoIntegradorII.Api.csproj",
+      "projectName": "ProjetoIntegradorII.Api",
+      "projectPath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII\\ProjetoIntegradorII.Api.csproj",
       "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
       "outputPath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII\\obj\\",
       "projectStyle": "PackageReference",
