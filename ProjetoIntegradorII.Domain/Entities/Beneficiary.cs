@@ -33,6 +33,10 @@ namespace ProjetoIntegradorII.Domain.Entities
             DomainExceptionValidation.When(name.Length < 3, "Invalid name. Minimum 3 chars");
             DomainExceptionValidation.When(legalNature < 0, "Invalid legal nature. Should be greater than 0");
             DomainExceptionValidation.When(phone.Length < 9, "Invalid phone. Mininum of 9 chars");
-            }
+
+            Name = name;
+            LegalNature = legalNature;
+            Phone = phone;
+        }
     }
 }

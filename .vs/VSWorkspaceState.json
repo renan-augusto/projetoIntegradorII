@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\ProjetoIntegradorII",
+    "\\ProjetoIntegradorII.Domain",
+    "\\ProjetoIntegradorII.Domain\\Entities",
     "\\ProjetoIntegradorII\\Controllers",
     "\\ProjetoIntegradorII\\obj",
     "\\ProjetoIntegradorII\\Properties"
   ],
-  "SelectedNode": "\\ProjetoIntegradorII\\Controllers\\WeatherForecastController.cs",
+  "SelectedNode": "\\ProjetoIntegradorII.Domain\\Entities\\Adress.cs",
   "PreviewInSolutionExplorer": false
 }
