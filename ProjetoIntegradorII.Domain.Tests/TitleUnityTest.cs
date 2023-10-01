@@ -13,7 +13,7 @@ namespace ProjetoIntegradorII.Domain.Tests
         [Fact]
         public void CreateTitle_WithValidParameters_ResultObjectValidState()
         {
-            DateTime dueDate = new DateTime(2023, 10, 1, 10, 30, 0);
+            DateTime dueDate = new DateTime(2023, 10, 2, 10, 30, 0);
             DateTime paymentDate = new DateTime(2023, 10, 30, 10, 30, 0);
             Action action = () => new Title((decimal)10.00, dueDate, paymentDate, Enums.TitleStatus.Pending);
             action.Should()

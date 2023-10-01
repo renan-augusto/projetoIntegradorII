@@ -22,5 +22,15 @@ namespace ProjetoIntegradorII.Domain.Tests
                 .WithMessage("Invalid name. Minimum 3 chars");
                    
         }
+
+        [Fact]
+        public void CreateBeneficiary_NegativeLegalNature_DomainExceptionNegativeLegalNature()
+        {
+            Action action = () => new Beneficiary("Beneficiary", -1, "1799999999");
+            action.Should()
+                .Throw<ProjetoIntegradorII.Domain.Validations.DomainExceptionValidation>()
+                .WithMessage("Invalid legal nature. Should be greater than 0");
+
+        }
     }
 }

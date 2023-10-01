@@ -8,7 +8,7 @@ using static ProjetoIntegradorII.Domain.Entities.Enums;
 
 namespace ProjetoIntegradorII.Domain.Entities
 {
-    public class Title : Entity
+    public sealed class Title : Entity
     {
         public decimal Amount { get; private set; }
         public DateTime DueDate { get; private set; }

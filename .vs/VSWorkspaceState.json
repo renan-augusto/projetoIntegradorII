@@ -3,11 +3,12 @@
     "",
     "\\ProjetoIntegradorII",
     "\\ProjetoIntegradorII.Domain",
+    "\\ProjetoIntegradorII.Domain.Tests",
     "\\ProjetoIntegradorII.Domain\\Entities",
     "\\ProjetoIntegradorII\\Controllers",
     "\\ProjetoIntegradorII\\obj",
     "\\ProjetoIntegradorII\\Properties"
   ],
-  "SelectedNode": "\\ProjetoIntegradorII.Domain\\Entities\\Adress.cs",
+  "SelectedNode": "\\ProjetoIntegradorII\\ProjetoIntegradorII.sln",
   "PreviewInSolutionExplorer": false
 }

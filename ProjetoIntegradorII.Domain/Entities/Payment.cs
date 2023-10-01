@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoIntegradorII.Domain.Entities
 {
-    public class Payment : Entity
+    public sealed class Payment : Entity
     {
         public decimal Amount { get; private set; }
         public DateTime PaymentDate { get; set; }
