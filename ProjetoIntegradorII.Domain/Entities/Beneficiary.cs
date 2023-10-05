@@ -1,9 +1,4 @@
 ﻿using ProjetoIntegradorII.Domain.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetoIntegradorII.Domain.Entities
 {
@@ -16,12 +11,12 @@ namespace ProjetoIntegradorII.Domain.Entities
         public int AdressId { get; set; }
         public Adress Adress { get; set; }
 
-        public Beneficiary(string name, int legalNature, string phone) 
+        public Beneficiary(string name, int legalNature, string phone)
         {
             ValidateDomain(name, legalNature, phone);
         }
 
-        public Beneficiary(string name, int legalNature, string Phone, int adressId) 
+        public Beneficiary(string name, int legalNature, string Phone, int adressId)
         {
             ValidateDomain(name, legalNature, Phone);
             AdressId = adressId;

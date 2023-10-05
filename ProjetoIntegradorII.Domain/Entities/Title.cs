@@ -1,9 +1,4 @@
 ﻿using ProjetoIntegradorII.Domain.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static ProjetoIntegradorII.Domain.Entities.Enums;
 
 namespace ProjetoIntegradorII.Domain.Entities
@@ -15,11 +10,11 @@ namespace ProjetoIntegradorII.Domain.Entities
         public DateTime PaymentDate { get; private set; }
         public TitleStatus Status { get; set; } = TitleStatus.Pending;
 
-        public Title(decimal amount, DateTime dueDate, DateTime paymentDate, TitleStatus status) 
+        public Title(decimal amount, DateTime dueDate, DateTime paymentDate, TitleStatus status)
         {
             ValidateDomain(amount, dueDate, paymentDate);
             Status = TitleStatus.Pending;
-            
+
         }
 
         public void ValidateDomain(decimal amount, DateTime dueDate, DateTime paymentDate)

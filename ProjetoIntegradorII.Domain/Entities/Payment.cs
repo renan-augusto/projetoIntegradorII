@@ -1,9 +1,4 @@
 ﻿using ProjetoIntegradorII.Domain.Validations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetoIntegradorII.Domain.Entities
 {
@@ -11,22 +6,22 @@ namespace ProjetoIntegradorII.Domain.Entities
     {
         public decimal Amount { get; private set; }
         public DateTime PaymentDate { get; set; }
+        public int TitleId { get; set; }
         public Title Title { get; set; }
 
-        public Payment(decimal amount, DateTime paymentDate, Title title) 
+        public Payment(decimal amount, DateTime paymentDate, int title)
         {
-            ValidateDomaing(amount, paymentDate, title);
+            ValidateDomaing(amount, paymentDate);
+            TitleId = title;
         }
 
-        public void ValidateDomaing(decimal amount, DateTime paymentDate, Title title) 
+        public void ValidateDomaing(decimal amount, DateTime paymentDate)
         {
             DomainExceptionValidation.When(amount <= 0, "Invalid value");
             DomainExceptionValidation.When(paymentDate < DateTime.Now, "Invalide date");
-            DomainExceptionValidation.When(title == null, "Invalid title");
 
             Amount = amount;
             PaymentDate = paymentDate;
-            Title = title;
         }
     }
 }
