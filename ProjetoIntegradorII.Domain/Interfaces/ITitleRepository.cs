@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoIntegradorII.Domain.Interfaces
 {
-    public interface ITitle
+    public interface ITitleRepository
     {
         Task<IEnumerable<Title>> GetTitles();
         Task<Title> GetTitleById(Title title);

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoIntegradorII.Domain.Interfaces
 {
-    public interface IPayment
+    public interface IPaymentRepository
     {
         Task<IEnumerable<Payment>> GetPayments();
         Task<Payment> GetPaymentById(int id);

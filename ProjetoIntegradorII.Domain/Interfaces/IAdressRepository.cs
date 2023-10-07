@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoIntegradorII.Domain.Interfaces
 {
-    public interface IAdress
+    public interface IAdressRepository
     {
         Task<IEnumerable<Adress>> GetAdresses();
         Task<Adress> GetAdressById(int? id);
