@@ -3,9 +3,11 @@
     "",
     "\\ProjetoIntegradorII",
     "\\ProjetoIntegradorII.Domain.Tests",
+    "\\ProjetoIntegradorII.Infra.Data",
+    "\\ProjetoIntegradorII.Infra.Data\\Repositories",
     "\\ProjetoIntegradorII\\Controllers",
     "\\ProjetoIntegradorII\\Properties"
   ],
-  "SelectedNode": "\\ProjetoIntegradorII\\ProjetoIntegradorII.sln",
+  "SelectedNode": "\\ProjetoIntegradorII.Infra.Data\\Repositories\\TitleRepository.cs",
   "PreviewInSolutionExplorer": false
 }
