@@ -7,7 +7,6 @@ namespace ProjetoIntegradorII.Domain.Entities
         public decimal Amount { get; private set; }
         public DateTime PaymentDate { get; set; }
         public int TitleId { get; set; }
-        public Title Title { get; set; }
 
         public Payment(decimal amount, DateTime paymentDate, int title)
         {
