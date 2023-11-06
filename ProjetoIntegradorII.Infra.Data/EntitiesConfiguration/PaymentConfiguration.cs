@@ -12,10 +12,10 @@ namespace ProjetoIntegradorII.Infra.Data.EntitiesConfiguration
             builder.Property(t => t.Id).ValueGeneratedOnAdd();
             builder.Property(p => p.Amount).HasColumnType("decimal(18, 2)").IsRequired();
             builder.Property(p => p.PaymentDate).IsRequired();
-            builder.HasOne(p => p.Title)
-                   .WithMany()
-                   .HasForeignKey(p => p.TitleId)
-                   .OnDelete(DeleteBehavior.Cascade); // Defina o comportamento de exclusão apropriado aqui, se necessário.
+            builder.HasOne<Title>()
+                .WithMany()
+                .HasForeignKey(p => p.TitleId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

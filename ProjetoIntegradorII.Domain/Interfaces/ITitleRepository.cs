@@ -10,7 +10,7 @@ namespace ProjetoIntegradorII.Domain.Interfaces
     public interface ITitleRepository
     {
         Task<IEnumerable<Title>> GetTitles();
-        Task<Title> GetTitleById(Title title);
+        Task<Title> GetTitleById(int id);
         Task<Title> Create(Title title);
         Task<Title> Update(Title title);
         Task<Title> Remove(Title title);

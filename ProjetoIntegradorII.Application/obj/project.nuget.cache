@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w1ud6XS1y4h4N2MBTj6TagO6bMaKIhIZcysU/uiHUhefKP9Q1p6lZQjdxYzwVgKEPu/2L4Srz9PvE0gOb8usLg==",
+  "success": true,
+  "projectFilePath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.Application\\ProjetoIntegradorII.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
