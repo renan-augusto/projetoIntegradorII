@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "c+Bi0okhl0aQGThGqxFXanow56Llt0PiCUNz6nznJVuUCVZ9O86NvECvhA58/HMJ5nCrTOwrzqI1Ax2l6DbeRQ==",
+  "dgSpecHash": "mGtEZ1J/Q13gVMyLbD7ncQeGzvtyPrwoB7QsKwMh7B5jZV6BuEp5nbIZ7SoRvFqAvgyph49dr7jXbkixs169bw==",
   "success": true,
   "projectFilePath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.Infra.Ioc\\ProjetoIntegradorII.Infra.Ioc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\renan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
