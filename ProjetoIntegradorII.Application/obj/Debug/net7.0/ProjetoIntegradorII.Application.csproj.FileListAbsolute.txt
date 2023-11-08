@@ -1,0 +1,15 @@
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\bin\Debug\net7.0\ProjetoIntegradorII.Application.deps.json
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\bin\Debug\net7.0\ProjetoIntegradorII.Application.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\bin\Debug\net7.0\ProjetoIntegradorII.Application.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\bin\Debug\net7.0\ProjetoIntegradorII.Domain.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\bin\Debug\net7.0\ProjetoIntegradorII.Domain.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\ProjetoIntegradorII.Application.csproj.AssemblyReference.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\ProjetoIntegradorII.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\ProjetoIntegradorII.Application.AssemblyInfoInputs.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\ProjetoIntegradorII.Application.AssemblyInfo.cs
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\ProjetoIntegradorII.Application.csproj.CoreCompileInputs.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\ProjetoIntegradorII.Application.csproj.CopyComplete
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\ProjetoIntegradorII.Application.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\refint\ProjetoIntegradorII.Application.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\ProjetoIntegradorII.Application.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Application\obj\Debug\net7.0\ref\ProjetoIntegradorII.Application.dll

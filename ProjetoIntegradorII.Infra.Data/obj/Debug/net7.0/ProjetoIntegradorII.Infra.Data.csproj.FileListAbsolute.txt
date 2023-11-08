@@ -1,0 +1,5 @@
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.csproj.AssemblyReference.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.AssemblyInfoInputs.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.AssemblyInfo.cs
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.csproj.CoreCompileInputs.cache
