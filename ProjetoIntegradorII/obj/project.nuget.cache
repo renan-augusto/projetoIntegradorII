@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "g5GpMVx56RC20YgG98olIBOSaxcx4x0RJuuYOZJt/oLvgD70brvMvyaAGzUwV3aIsGV0Y9rSuwlhJ36RSGAQRw==",
+  "dgSpecHash": "0Rs+gdM1d0NBmHQBWWIMtp5eyS/O0/gHj2m2pD6JyQ7SQcyZ9MgNNGAQfhCr1pDrn8CMLyLjA2d0Kutp56lBug==",
   "success": true,
   "projectFilePath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII\\ProjetoIntegradorII.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
