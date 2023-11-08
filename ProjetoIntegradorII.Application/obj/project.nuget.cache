@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "w1ud6XS1y4h4N2MBTj6TagO6bMaKIhIZcysU/uiHUhefKP9Q1p6lZQjdxYzwVgKEPu/2L4Srz9PvE0gOb8usLg==",
+  "dgSpecHash": "5GFcG8rYG1oZ+r2fSodIFroJcOnt37kDsx/f4ykAmQh7NEsm4pGgh7jyPd3+2SubZUVmBn5+SiO8m5Hqvz7W9A==",
   "success": true,
   "projectFilePath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.Application\\ProjetoIntegradorII.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\renan\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

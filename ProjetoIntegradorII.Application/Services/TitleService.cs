@@ -24,7 +24,7 @@ namespace ProjetoIntegradorII.Application.Services
             return _mapper.Map<IEnumerable<TitleDto>>(titleEntity);
         }
 
-        public async Task<TitleDto> GetById(int? id)
+        public async Task<TitleDto> GetById(int id)
         {
             var titleEntity = await _titleRepository.GetTitleById(id);
             return _mapper.Map<TitleDto>(titleEntity);
@@ -51,6 +51,11 @@ namespace ProjetoIntegradorII.Application.Services
             {
                 await _titleRepository.Remove(titleEntity);
             }
+        }
+
+        public Task<TitleDto> GetById(int? id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
