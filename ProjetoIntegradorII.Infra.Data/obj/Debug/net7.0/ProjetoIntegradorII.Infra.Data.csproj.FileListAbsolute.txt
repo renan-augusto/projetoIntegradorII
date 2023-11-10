@@ -3,3 +3,15 @@ C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.AssemblyInfoInputs.cache
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.AssemblyInfo.cs
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.csproj.CoreCompileInputs.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Data.deps.json
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Data.runtimeconfig.json
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Data.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Data.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\bin\Debug\net7.0\ProjetoIntegradorII.Domain.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\bin\Debug\net7.0\ProjetoIntegradorII.Domain.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.csproj.CopyComplete
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\refint\ProjetoIntegradorII.Infra.Data.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Data.genruntimeconfig.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Data\obj\Debug\net7.0\ref\ProjetoIntegradorII.Infra.Data.dll

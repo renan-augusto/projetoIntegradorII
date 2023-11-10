@@ -9,6 +9,7 @@ namespace ProjetoIntegradorII.Application.DTOs
 {
     public class BeneficiaryDto
     {
+        public int Id { get; set; }
         public string Name { get; private set; }
         public int LegalNature { get; private set; }
         public string Phone { get; private set; }
