@@ -3,3 +3,17 @@ C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.AssemblyInfoInputs.cache
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.AssemblyInfo.cs
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.csproj.CoreCompileInputs.cache
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.deps.json
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Application.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Domain.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Data.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Application.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Domain.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Data.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.csproj.CopyComplete
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\refint\ProjetoIntegradorII.Infra.Ioc.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ref\ProjetoIntegradorII.Infra.Ioc.dll

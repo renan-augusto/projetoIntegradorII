@@ -25,6 +25,11 @@ namespace ProjetoIntegradorII.Infra.Data.Repositories
             return await _context.Payments.FindAsync(id);
         }
 
+        public Task<Payment> GetPaymentById(int? id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Payment>> GetPayments()
         {
            return await _context.Payments.ToListAsync();
