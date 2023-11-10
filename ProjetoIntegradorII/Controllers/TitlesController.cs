@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ProjetoIntegradorII.Application.DTOs;
 using ProjetoIntegradorII.Application.Interfaces;
 
@@ -20,7 +19,7 @@ namespace ProjetoIntegradorII.Api.Controllers
         public async Task<ActionResult<IEnumerable<TitleDto>>> Get()
         {
             var titles = await _titleService.GetTitles();
-            if(titles == null)
+            if (titles == null)
             {
                 return NotFound("Titles not found");
             }
@@ -32,7 +31,7 @@ namespace ProjetoIntegradorII.Api.Controllers
         public async Task<ActionResult<TitleDto>> GetById(int id)
         {
             var title = await _titleService.GetById(id);
-            if(title == null)
+            if (title == null)
             {
                 return NotFound("Title not found");
             }
@@ -42,7 +41,7 @@ namespace ProjetoIntegradorII.Api.Controllers
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] TitleDto titleDto)
         {
-            if(titleDto == null)
+            if (titleDto == null)
             {
                 return BadRequest("Invalid data");
             }
@@ -54,17 +53,17 @@ namespace ProjetoIntegradorII.Api.Controllers
         [HttpPut]
         public async Task<ActionResult> Put(int id, [FromBody] TitleDto titleDto)
         {
-            if(id != titleDto.Id)
+            if (id != titleDto.Id)
             {
                 return BadRequest("id not found");
             }
-            if(titleDto == null)
+            if (titleDto == null)
             {
                 return BadRequest("Invalid data");
             }
 
             await _titleService.Update(titleDto);
-            
+
             return Ok(titleDto);
         }
 
@@ -72,7 +71,7 @@ namespace ProjetoIntegradorII.Api.Controllers
         public async Task<ActionResult<TitleDto>> Delete(int id)
         {
             var title = _titleService.GetById(id);
-            if(title == null)
+            if (title == null)
             {
                 return NotFound("Title not found");
             }
