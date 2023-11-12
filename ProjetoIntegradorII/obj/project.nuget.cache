@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9c166VSWTMcIh7YaC0zbBDTFEWf8sgUpXAyLp2xVVKNpHWwA0XVej3IQ8PNPgJBABFay8fvRVFoqOvRlifhLhw==",
+  "dgSpecHash": "IKwMdyAeeN3YS/Y9TJcjJ6KtrTSxUVXRphutXGs6hR16tiEV4HxUJxuo6AD4iZEgzfinkj7wPxWHn7iO7HVdeQ==",
   "success": true,
   "projectFilePath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII\\ProjetoIntegradorII.Api.csproj",
   "expectedPackageFiles": [
@@ -60,7 +60,6 @@
     "C:\\Users\\renan\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjectionfixed\\5.1.2\\mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

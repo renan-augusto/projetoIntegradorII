@@ -1,19 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using ProjetoIntegradorII.Infra.Data.Context;
+using ProjetoIntegradorII.Infra.Ioc;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddInfrastructureAPI(builder.Configuration);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-        b => b.MigrationsAssembly("ProjetoIntegradorII.Api")));
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+//        b => b.MigrationsAssembly("ProjetoIntegradorII.Api")));
 
 
 var app = builder.Build();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AD2W5Tea3SfYpBUsprahwIOGJ6IrXtXJR6UJs17F+ut/FgHN8/nCxvWyRNB6IF2wcBSlLeznLuOriaJWuPUoYg==",
+  "dgSpecHash": "YNWGCGzjtI0zvkUXqrthV/vWnlBMmANkgy+E5CvL6sXT08mvcV9qBvatdnoVtSIF4iW+6mDsv4l6b2amWN8Upg==",
   "success": true,
   "projectFilePath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.Infra.Ioc\\ProjetoIntegradorII.Infra.Ioc.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,6 @@
     "C:\\Users\\renan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjectionfixed\\5.1.2\\mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",

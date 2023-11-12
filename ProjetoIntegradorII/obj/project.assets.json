@@ -699,19 +699,6 @@
           }
         }
       },
-      "MediatR.Extensions.Microsoft.DependencyInjectionFixed/5.1.2": {
-        "type": "package",
-        "dependencies": {
-          "MediatR": "5.1.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.OpenApi/7.0.12": {
         "type": "package",
         "dependencies": {
@@ -4078,7 +4065,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "MediatR.Extensions.Microsoft.DependencyInjectionFixed": "5.1.2",
+          "MediatR": "12.1.1",
           "ProjetoIntegradorII.Application": "1.0.0",
           "ProjetoIntegradorII.Domain": "1.0.0",
           "ProjetoIntegradorII.Infra.Data": "1.0.0",
@@ -4937,18 +4924,6 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.2.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
-      ]
-    },
-    "MediatR.Extensions.Microsoft.DependencyInjectionFixed/5.1.2": {
-      "sha512": "93OmjCwew097+bxLSA9xJavQ0AYhHDmZDeh2Q09rxCuTeO9SKc/gtQledr0s42vHfl5yFgTRaffyMYG+989c2w==",
-      "type": "package",
-      "path": "mediatr.extensions.microsoft.dependencyinjectionfixed/5.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
-        "mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
-        "mediatr.extensions.microsoft.dependencyinjectionfixed.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/7.0.12": {
@@ -11884,6 +11859,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "MediatR >= 12.1.1",
       "Microsoft.AspNetCore.OpenApi >= 7.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.12",
@@ -11941,6 +11917,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[12.1.1, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.12, )"

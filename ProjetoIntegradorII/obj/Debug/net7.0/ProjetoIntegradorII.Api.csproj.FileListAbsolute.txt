@@ -37,7 +37,6 @@ C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\Azure.Iden
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\Humanizer.dll
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\MediatR.dll
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\MediatR.Contracts.dll
-C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\Microsoft.Build.dll
