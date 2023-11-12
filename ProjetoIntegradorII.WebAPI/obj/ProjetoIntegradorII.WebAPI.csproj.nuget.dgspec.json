@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj": {}
+    "c:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj": {
+    "c:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj",
+        "projectUniqueName": "c:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj",
         "projectName": "ProjetoIntegradorII.WebAPI",
-        "projectPath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj",
+        "projectPath": "c:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj",
         "packagesPath": "C:\\Users\\renan\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\obj\\",
+        "outputPath": "c:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

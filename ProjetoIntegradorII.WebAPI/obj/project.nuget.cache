@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nrBXKyc9bZ39tccxo+YhxumOfa31dNwKKay2iD/PNpfxtZx6Gu6VBoWw/m0AreaAJjGVCE9TCc3LyoTzy9PMRQ==",
+  "dgSpecHash": "cWFJt3KzMxAYodisf2N68iKK8aoN2xE5PCJGeuGGnb3tFi4RQsvq/rxuy4yErd0p/NXPmAE8e2B5EpBxhZN9Qg==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj",
+  "projectFilePath": "c:\\workspace\\projetoIntegradorII\\ProjetoIntegradorII.WebAPI\\ProjetoIntegradorII.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
