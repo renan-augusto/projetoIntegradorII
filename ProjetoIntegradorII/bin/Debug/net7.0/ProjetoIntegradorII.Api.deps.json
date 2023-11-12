@@ -2627,6 +2627,7 @@
       "ProjetoIntegradorII.Infra.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.12",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.12",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12",
           "ProjetoIntegradorII.Domain": "1.0.0"
         },

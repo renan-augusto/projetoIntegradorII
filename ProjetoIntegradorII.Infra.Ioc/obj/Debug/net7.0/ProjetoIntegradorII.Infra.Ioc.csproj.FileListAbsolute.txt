@@ -17,3 +17,5 @@ C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\refint\ProjetoIntegradorII.Infra.Ioc.dll
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.pdb
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ref\ProjetoIntegradorII.Infra.Ioc.dll
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.runtimeconfig.json
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII.Infra.Ioc\obj\Debug\net7.0\ProjetoIntegradorII.Infra.Ioc.genruntimeconfig.cache

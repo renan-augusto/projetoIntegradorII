@@ -264,3 +264,4 @@ C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\ProjetoInt
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\ProjetoIntegradorII.Application.pdb
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\ProjetoIntegradorII.Domain.pdb
 C:\workspace\projetoIntegradorII\ProjetoIntegradorII\bin\Debug\net7.0\ProjetoIntegradorII.Infra.Data.pdb
+C:\workspace\projetoIntegradorII\ProjetoIntegradorII\obj\Debug\net7.0\ProjetoIntegradorII.Api.MvcApplicationPartsAssemblyInfo.cs

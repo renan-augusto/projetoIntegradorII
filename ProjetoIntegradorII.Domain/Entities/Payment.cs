@@ -8,6 +8,11 @@ namespace ProjetoIntegradorII.Domain.Entities
         public DateTime PaymentDate { get; set; }
         public int TitleId { get; set; }
 
+        public Payment()
+        {
+            
+        }
+
         public Payment(decimal amount, DateTime paymentDate, int title)
         {
             ValidateDomaing(amount, paymentDate);
