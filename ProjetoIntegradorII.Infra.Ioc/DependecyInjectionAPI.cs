@@ -16,8 +16,8 @@ namespace ProjetoIntegradorII.Infra.Ioc
         public static IServiceCollection AddInfrastructureAPI(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
-                b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")
+                ,b => b.MigrationsAssembly("ProjetoIntegradorII.Api")));
 
             services.AddScoped<IAdressRepository, AdressRepository>();
             services.AddScoped<IBeneficiaryRepository, BeneficiaryRepository>();
