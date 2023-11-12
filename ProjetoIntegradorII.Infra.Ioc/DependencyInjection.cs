@@ -24,7 +24,7 @@ namespace ProjetoIntegradorII.Infra.Ioc
 
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
-            var myhandlers = AppDomain.CurrentDomain.Load("CleanArchMvc.Application");
+            var myhandlers = AppDomain.CurrentDomain.Load("ProjetoIntegradorII.Application");
             services.AddMediatR(myhandlers);
 
             return services;
