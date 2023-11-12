@@ -31,7 +31,6 @@ namespace ProjetoIntegradorII.Infra.Ioc
 
             var myhandlers = AppDomain.CurrentDomain.Load("ProjetoIntegradorII.Application");
 
-            //services.AddMediatR(myhandlers);
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(myhandlers));
 
             return services;
