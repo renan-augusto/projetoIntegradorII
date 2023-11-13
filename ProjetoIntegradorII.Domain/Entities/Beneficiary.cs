@@ -8,7 +8,6 @@ namespace ProjetoIntegradorII.Domain.Entities
         public int LegalNature { get; private set; }
         public string Phone { get; private set; }
         public bool Active { get; private set; }
-        public Adress Adress { get; set; }
 
         public ICollection<Title> Titles { get; set; } = new List<Title>();
 

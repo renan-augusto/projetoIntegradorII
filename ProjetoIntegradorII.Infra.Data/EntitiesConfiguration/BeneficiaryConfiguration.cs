@@ -15,9 +15,8 @@ namespace ProjetoIntegradorII.Infra.Data.EntitiesConfiguration
             builder.Property(c => c.LegalNature).IsRequired();
             builder.Property(z => z.Phone).HasMaxLength(15).IsRequired();
             builder.Property(o => o.Active).IsRequired();
-            builder.HasOne(b => b.Adress);
             
-           builder.HasMany(b => b.Titles)
+            builder.HasMany(b => b.Titles)
                 .WithOne(t => t.Beneficiary)
                 .HasForeignKey(t => t.BeneficiaryId)
                 .OnDelete(DeleteBehavior.Cascade);

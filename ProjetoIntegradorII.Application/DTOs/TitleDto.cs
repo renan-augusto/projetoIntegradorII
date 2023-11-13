@@ -13,5 +13,6 @@ namespace ProjetoIntegradorII.Application.DTOs
         public DateTime DueDate { get; set; }
         public DateTime PaymentDate { get; set; }
         public int Status { get; set; }
+        public int BeneficiaryId { get; set; }
     }
 }
