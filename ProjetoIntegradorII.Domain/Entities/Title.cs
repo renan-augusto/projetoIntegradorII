@@ -11,6 +11,8 @@ namespace ProjetoIntegradorII.Domain.Entities
         public DateTime PaymentDate { get; private set; }
         public TitleStatus Status { get; set; } = TitleStatus.Pending;
 
+        public Beneficiary Beneficiary { get; set; }
+
         public Title(decimal amount, DateTime dueDate, DateTime paymentDate, TitleStatus status)
         {
             ValidateDomain(amount, dueDate, paymentDate);

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ProjetoIntegradorII.Domain.Entities;
+using System.Net.NetworkInformation;
 
 namespace ProjetoIntegradorII.Infra.Data.EntitiesConfiguration
 {
@@ -14,10 +15,12 @@ namespace ProjetoIntegradorII.Infra.Data.EntitiesConfiguration
             builder.Property(c => c.LegalNature).IsRequired();
             builder.Property(z => z.Phone).HasMaxLength(15).IsRequired();
             builder.Property(o => o.Active).IsRequired();
-            builder.HasOne(b => b.Adress)
-                .WithMany(a => a.Beneficiaries)
-                .HasForeignKey(b => b.AdressId)
-                .OnDelete(DeleteBehavior.Restrict);
+            builder.HasOne(b => b.Adress);
+            
+           builder.HasMany(b => b.Titles)
+                .WithOne(t => t.Beneficiary)
+                .HasForeignKey(t => t.BeneficiaryId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

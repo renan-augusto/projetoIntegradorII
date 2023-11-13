@@ -8,20 +8,14 @@ namespace ProjetoIntegradorII.Domain.Entities
         public int LegalNature { get; private set; }
         public string Phone { get; private set; }
         public bool Active { get; private set; }
-        public int AdressId { get; set; }
         public Adress Adress { get; set; }
+
+        public ICollection<Title> Titles { get; set; } = new List<Title>();
 
         public Beneficiary(string name, int legalNature, string phone)
         {
             ValidateDomain(name, legalNature, phone);
         }
-
-        public Beneficiary(string name, int legalNature, string Phone, int adressId)
-        {
-            ValidateDomain(name, legalNature, Phone);
-            AdressId = adressId;
-        }
-
         public void ValidateDomain(string name, int legalNature, string phone)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid name. Name is required");

@@ -148,6 +148,8 @@ namespace ProjetoIntegradorII.Api.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("BeneficiaryId");
+
                     b.ToTable("Titles");
                 });
 
@@ -156,7 +158,7 @@ namespace ProjetoIntegradorII.Api.Migrations
                     b.HasOne("ProjetoIntegradorII.Domain.Entities.Adress", "Adress")
                         .WithMany("Beneficiaries")
                         .HasForeignKey("AdressId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Adress");
@@ -171,9 +173,25 @@ namespace ProjetoIntegradorII.Api.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ProjetoIntegradorII.Domain.Entities.Title", b =>
+                {
+                    b.HasOne("ProjetoIntegradorII.Domain.Entities.Beneficiary", "Beneficiary")
+                        .WithMany("Titles")
+                        .HasForeignKey("BeneficiaryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Beneficiary");
+                });
+
             modelBuilder.Entity("ProjetoIntegradorII.Domain.Entities.Adress", b =>
                 {
                     b.Navigation("Beneficiaries");
+                });
+
+            modelBuilder.Entity("ProjetoIntegradorII.Domain.Entities.Beneficiary", b =>
+                {
+                    b.Navigation("Titles");
                 });
 #pragma warning restore 612, 618
         }
