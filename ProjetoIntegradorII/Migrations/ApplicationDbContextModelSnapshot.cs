@@ -140,7 +140,7 @@ namespace ProjetoIntegradorII.Api.Migrations
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("PaymentDate")
+                    b.Property<DateTime?>("PaymentDate")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("Status")

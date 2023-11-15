@@ -12,11 +12,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
 
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-//        b => b.MigrationsAssembly("ProjetoIntegradorII.Api")));
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
